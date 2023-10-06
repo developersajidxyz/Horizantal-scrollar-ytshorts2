@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 30px;
+}
+.main{
+    background: crimson;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.inner{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin: 10px;
+    display: inline-block;
+}
